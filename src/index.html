@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inference Detective</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>추론 탐정 게임</h1>
+        <div id="text-area">
+            <!-- Text area for the passage will be dynamically populated -->
+        </div>
+        <div id="inference-path">
+            <h2>추론 경로 조립</h2>
+            <div id="slots">
+                <!-- Slots for drag and drop will be dynamically populated -->
+            </div>
+            <button id="submit-path">제출</button>
+        </div>
+        <div id="feedback">
+            <!-- Feedback will be displayed here -->
+        </div>
+        <div id="subscription-info">
+            <p>구독 상태: <span id="subscription-status">무료</span></p>
+            <button id="subscribe-button">구독하기</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

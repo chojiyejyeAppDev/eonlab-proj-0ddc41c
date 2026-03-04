@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#text-area {
+    margin-bottom: 20px;
+}
+
+#inference-path {
+    margin-bottom: 20px;
+}
+
+#slots {
+    display: flex;
+    flex-direction: column;
+}
+
+.slot {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.feedback {
+    color: red;
+}
